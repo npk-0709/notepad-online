@@ -1,13 +1,13 @@
 <?php
 // Database Configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'sql_note_smm79');
-define('DB_USER', 'sql_note_smm79');
-define('DB_PASS', 'sql_note_smm79');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 
 // Login Credentials
-define('ADMIN_USER', 'khuongsosad');
-define('ADMIN_PASS', 'khuongsosad');
+define('ADMIN_USER', '');
+define('ADMIN_PASS', '');
 
 // Site Configuration
 define('SITE_URL', 'https://note.smm79.com/');
@@ -51,3 +51,4 @@ function requireLogin()
         exit;
     }
 }
+
